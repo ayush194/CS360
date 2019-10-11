@@ -1,0 +1,118 @@
+# Blender MTL File: 'rm101_subsurf5.blend'
+# Material Count: 12
+
+newmtl C05
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.316863 0.429804 0.395294
+Ks 0.449020 0.449020 0.484314
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/green_seat_diffuse.jpg
+
+newmtl C09
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.426667 0.345098 0.213333
+Ks 0.449020 0.449020 0.484314
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/dark_wood_diffuse.jpg
+
+newmtl C13
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.646275 0.646275 0.000000
+Ks 0.449020 0.449020 0.484314
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/black_metal_diffuse.jpg
+
+newmtl None
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/board3_diffuse.jpg
+
+newmtl None_back_wall_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/back_wall_diffuse.jpg
+
+newmtl None_carpet_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/carpet_diffuse.jpg
+
+newmtl None_front_wall_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/front_wall_diffuse.jpg
+
+newmtl None_left_wall_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/left_wall_diffuse.jpg
+
+newmtl None_right_wall_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/right_wall_diffuse.jpg
+
+newmtl None_stage_front_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/stage_front_diffuse.jpg
+
+newmtl None_tiles1_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/tiles1_diffuse.jpg
+
+newmtl None_top_wall_diffuse.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Users/ayushk/Desktop/RoomShader/RoomShader/textures/top_wall_diffuse.jpg
