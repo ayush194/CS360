@@ -41,13 +41,15 @@ The easiest way to install these libraries is using the brew package manager. Fo
 brew install glew glfw glm
 ```
 
-### For Linux and OSX
+## Compiling and Running
+Now simply clone the this repository and build using the shell script provided.
 
-Now simply clone the this repository and build using make.
+### For Linux and OSX
 ```
 https://github.com/ayush194/CS360.git
-cd CS360/RM101_Model
-sudo make
+cd CS360/RoomShader/
+sh compile.sh
+./roomshader
 ```
 
 ---------------

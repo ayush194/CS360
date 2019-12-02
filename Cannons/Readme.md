@@ -27,8 +27,10 @@ Enjoy!
 
 ## Build Instructions:
 
-1. If you are using OSX/Linux, simply build using the Makefile provided in the game directory and run the binary created,
+1. If you are using OSX/Linux, simply clone the repository and build using the Makefile provided in the game directory and then run the binary created,
 ```
+https://github.com/ayush194/CS360.git
+cd CS360/Cannons/
 sudo make
 ./cannons
 ```

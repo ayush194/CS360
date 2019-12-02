@@ -6,10 +6,17 @@ CPPFLAGS = -std=c++11 -Wall -g
 CC = g++
 INCLUDES = gl_includes.h
 LIBS = -lm
-FRAMEWORKS = -framework OpenGL -framework GLUT
+UNAME := $(shell uname)
+FRAMEWORKS = 
+ifeq ($(UNAME), Linux)
+	FRAMEWORKS += -lGL -lGLU -lglut
+endif
+ifeq ($(UNAME), Darwin)
+	FRAMEWORKS += -framework OpenGL -framework GLUT
+endif
 
 ${TARGET} : ${OBJS}
-	@${CC} ${CPPFLAGS} ${FRAMEWORKS} -o ${TARGET} ${OBJS}
+	@${CC} ${CPPFLAGS} -o ${TARGET} ${OBJS} ${FRAMEWORKS}
 
 main.o : main.cpp ${INCLUDES}
 	@${CC} ${CPPFLAGS} -c main.cpp

@@ -63,9 +63,17 @@ bool parseMTL(
 		} else if (strcmp(line_header, "illum") == 0) {
 			fscanf(mtlfile, "%u\n", &newmtl->illum);
 		} else if (strcmp(line_header, "map_Kd") == 0) {
-			fscanf(mtlfile, "%s\n", newmtl->map_kd);
+			//prepend relative path of directory in which mtllib is stored to the relative path of texture (w.r.t. mtllib)
+			strcpy(newmtl->map_kd, path);
+			int i = strlen(newmtl->map_kd)-1;
+			while (newmtl->map_kd[i] != '/') i--;
+			fscanf(mtlfile, "%s\n", newmtl->map_kd+i+1);
 		} else if (strcmp(line_header, "map_Ks") == 0) {
-			fscanf(mtlfile, "%s\n", newmtl->map_ks);
+			//prepend relative path of directory in which mtllib is stored to the relative path of texture (w.r.t. mtllib)
+			strcpy(newmtl->map_ks, path);
+			int i = strlen(newmtl->map_ks)-1;
+			while (newmtl->map_ks[i] != '/') i--;
+			fscanf(mtlfile, "%s\n", newmtl->map_ks+i+1);
 		} else {
 			// Probably a comment, eat up the rest of the line
 			char stupid_buffer[1000];

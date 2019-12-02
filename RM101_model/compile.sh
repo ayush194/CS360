@@ -1,1 +1,0 @@
-g++ -std=c++11 -I/usr/local/include -I. -o rm101 diffuse_shader.cpp objloader.cpp -framework OpenGL -lglfw -lglew
