@@ -1,1 +1,1 @@
-g++ -std=c++11 -framework OpenGL -lglfw -lglew -I/usr/local/include -I. -o rm101 diffuse_shader_test.cpp objloader.cpp
+g++ -std=c++11 -I/usr/local/include -I. -o rm101 diffuse_shader.cpp objloader.cpp -framework OpenGL -lglfw -lglew
