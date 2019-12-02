@@ -10,6 +10,8 @@
 
 This is a simple room shader built for Assignment 2 of CS360 course at IIT Kanpur. The room has been modelled and uv mapped in Blender. The source code provides the implementation for loading the object files and the textures (stb_library has been used for loading images as textures) as well as for rendering the loaded object. The shaders implement the Blinn-Phong model for Diffuse and Specular shading.
 
+![Screenshot](https://raw.githubusercontent.com/ayush194/RoomShader/master/screenshot.png?raw=true "Screenshot")
+
 Use the mouse to look around, pan to zoom in and out, and the keys A, S, W, D to move left, backwards, forwards and right respectively.
 
 ---------------
