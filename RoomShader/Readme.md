@@ -48,7 +48,7 @@ Now simply clone the this repository and build using the shell script provided.
 
 ### For Linux and OSX
 ```
-https://github.com/ayush194/CS360.git
+git clone https://github.com/ayush194/CS360.git
 cd CS360/RoomShader/
 sh compile.sh
 ./roomshader
